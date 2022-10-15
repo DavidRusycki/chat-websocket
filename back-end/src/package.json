@@ -1,0 +1,16 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "WebSocket Server with nodeJs",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server.js"
+  },
+  "author": "David Rusycki",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.9.0"
+  },
+  "type": "module"
+}

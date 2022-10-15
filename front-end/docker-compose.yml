@@ -1,0 +1,13 @@
+version: '3'
+
+networks:
+  php-network:
+    external: true
+
+services:
+  php:
+    image: php:8.1.12RC1-apache
+    ports:
+      - 80:80
+    volumes:
+      - ./src/:/var/www/html

@@ -1,0 +1,10 @@
+version: '3'
+
+networks:
+  server-network:
+    external: true
+
+services:
+  server-websocket:
+    build: .
+    command: npm start
