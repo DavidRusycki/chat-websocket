@@ -1,4 +1,4 @@
-let websocket = new WebSocket("ws://localhost:8080");
+let websocket = new WebSocket("ws://54.157.76.87:8080");
 
 websocket.onopen = (message) => {
     console.log('Conexão aberta.');
