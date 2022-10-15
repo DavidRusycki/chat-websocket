@@ -1,5 +1,5 @@
 import WebSocket, { WebSocketServer } from 'ws';
-const websocket = new WebSocketServer({port:7171});
+const websocket = new WebSocketServer({port:8080});
 
 websocket.on('connection', function(ws) {
     ws.on('message', function(data){
